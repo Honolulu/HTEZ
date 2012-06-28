@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" 
+    		android:scrollbarAlwaysDrawVerticalTrack="true">
+
+<RelativeLayout android:orientation="vertical"
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:gravity="top">
+
+	<ImageView android:src="@drawable/pinkpolygon" 
+	    	   android:id="@+id/imageView1" 
+	    	   android:layout_height="wrap_content" 
+	    	   android:layout_width="wrap_content" 
+	    	   android:layout_alignParentTop="true">
+	</ImageView>
+	<TextView android:text="Red/Pink: Tsunami Evacuation Zones" 
+	    	  android:id="@+id/textView1" 
+	    	  android:layout_height="wrap_content" 
+	    	  android:layout_width="wrap_content" 
+	    	  android:layout_toRightOf="@+id/imageView1" 
+	    	  android:layout_alignBottom="@+id/imageView1" 
+	    	  android:layout_marginLeft="6px">
+	</TextView>
+
+	<ImageView android:src="@drawable/darkbluedot" 
+	    	   android:id="@+id/imageView2" 
+	    	   android:layout_height="wrap_content" 
+	    	   android:layout_width="wrap_content" 
+	    	   android:layout_below="@+id/imageView1">
+	</ImageView>
+    <TextView android:text="Dark Blue: Your Location"
+        	  android:id="@+id/textView2"
+        	  android:layout_height="wrap_content" 
+        	  android:layout_width="wrap_content"
+        	  android:layout_alignBottom="@+id/imageView2"         	   
+        	  android:layout_toRightOf="@+id/imageView2"      	           	   
+        	  android:layout_marginLeft="6px">
+    </TextView>
+
+	<ImageView android:src="@drawable/yellowdot" 
+	    	   android:id="@+id/imageView3" 
+	    	   android:layout_height="wrap_content" 
+	    	   android:layout_width="wrap_content" 
+	    	   android:layout_below="@+id/imageView2">
+	</ImageView>
+	<TextView android:text="Yellow: Potential Hurricane Shelters" 
+	    	  android:id="@+id/textView3" 
+	    	  android:layout_height="wrap_content" 
+	    	  android:layout_width="wrap_content" 
+	    	  android:layout_toRightOf="@+id/imageView3" 
+	    	  android:layout_alignBottom="@+id/imageView3" 
+	    	  android:layout_marginLeft="6px">
+	</TextView>
+
+	<ImageView android:src="@drawable/lightbluedot" 
+	    	   android:id="@+id/imageView4" 
+	    	   android:layout_height="wrap_content" 
+	    	   android:layout_width="wrap_content" 
+	    	   android:layout_below="@+id/imageView3">
+	</ImageView>
+	<TextView android:text="Light Blue: Lifeguard Towers" 
+	    	  android:id="@+id/textView4" 
+	    	  android:layout_height="wrap_content" 
+	    	  android:layout_width="wrap_content" 
+	    	  android:layout_toRightOf="@+id/imageView4" 
+	    	  android:layout_alignBottom="@+id/imageView4" 
+	    	  android:layout_marginLeft="6px">
+	</TextView>
+
+	<ImageView android:src="@drawable/greendot" 
+	    	   android:id="@+id/imageView5" 
+	    	   android:layout_height="wrap_content" 
+	    	   android:layout_width="wrap_content" 
+	    	   android:layout_below="@+id/imageView4">
+	</ImageView>
+	<TextView android:text="Green: Tsunami Refuge Areas" 
+	    	  android:id="@+id/textView5"
+	    	  android:layout_height="wrap_content" 
+	    	  android:layout_width="wrap_content"
+	    	  android:layout_toRightOf="@+id/imageView5" 	    	   
+	    	  android:layout_alignBottom="@+id/imageView5" 	    	   
+	    	  android:layout_marginLeft="6px">
+	</TextView>	
+
+</RelativeLayout>
+
+</ScrollView>

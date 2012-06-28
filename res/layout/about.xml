@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ScrollView01" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent">
+
+<LinearLayout android:id="@+id/about_dialog"
+			  android:orientation="vertical"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="wrap_content"
+    		  android:scrollbars="vertical" 
+    		  android:scrollbarAlwaysDrawVerticalTrack="true">
+    		  
+<!-- TODO *KS: version number and ArcGIS if applicable-->
+<TextView android:id="@+id/TextView01" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:autoLink="web" 
+          android:text="Version: 2.0\n\nMapping API provided by:                
+\n
+					Esri ArcGIS for Android (1.1)\n\n
+Map Data Copyright:\n
+					Esri, DeLorme, NAVTEQ, TomTom, USGS, Intermap, AND, ESRI Japan, METI, ESRI Hong Kong, ESRI Thailand, Procalculo Prosis\n\n
+Tsunami Layer Data last updated:\n
+					2010\n\n
+Tsunami Evacuation Notes:\n
+					-Remain at least 100 feet away from inland waterways and marinas connected to the ocean due to wave surges and possible flooding.\n
+					-If possible, remove or deploy vessels to deep water (at least 200 fathoms).\n
+					-Structural steel or reinforced concrete buildings of six or more stories provide increased protection on or above the third floor.\n
+					-The evacuation zone is a guideline and should be considered the minimum safe evacuation distance.\n
+					-These maps do not consider the destructive effects of a locally generated tsunami. If you feel shaking, move inland immediately, well away from the evacuation zone.\n\n
+For more information, please visit:\n
+					http://www.honolulu.gov/mobile/htez.htm\n
+					http://www.honolulu.gov/dem\n\n
+Application Developer:\n
+					Kyle Shimabukuro\n\n
+Mahalo to the following beta testers:\n
+					Wilson Chan\n
+					Stephanie Chun\n
+					Morgan Heister\n
+					Reyn Matsunaga\n
+					Sarah Miyasaki\n
+					Kat Moratin\n
+					Zarli Win\n
+					Milton Ying
+					">
+</TextView>
+
+</LinearLayout>
+
+</ScrollView>
